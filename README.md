@@ -43,3 +43,12 @@ The spread of fake news has become a significant challenge in today’s digital 
   3.	`Random Forest Classifier`
 - **Hyperparameter Tuning:** `RandomizedSearchCV` was employed to find the optimal hyperparameters for each model, using a 5-fold cross-validation strategy. The F1-Score was selected as the primary metric for optimization, as it provides a balanced measure of precision and recall.
 - **Evaluation:** The best-performing version of each model was evaluated on the unseen validation data using four key metrics: `Accuracy`, `Precision`, `Recall`, and `F1-Score`.
+
+### Model Performance and Results:
+All three (`Logistic Regression`, `Random Forest`, `Decision Tree`) models were successfully trained and tuned. The `Logistic Regression model` demonstrated the best overall performance on the unseen validation data, achieving the highest `F1-Score`.
+
+<img width="748" height="102" alt="image" src="https://github.com/user-attachments/assets/23c02289-add4-4c89-b7ea-1bdcf42a0eab" />
+
+## Conclusion: 
+The project successfully demonstrates that a semantic classification approach using Word2Vec embedding’s highly effective for fake news detection. The final `Logistic Regression model`, with an F1-Score of `0.94`, provides a reliable and scalable solution. The F1-Score was prioritized as the key evaluation metric because it balances the critical needs of minimizing false positives (labelling real news as fake) and false negatives (failing to detect fake news). The distinct linguistic patterns identified in the EDA confirm that true and fake news are semantically separable.
+
