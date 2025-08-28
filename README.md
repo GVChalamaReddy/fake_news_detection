@@ -52,3 +52,30 @@ All three (`Logistic Regression`, `Random Forest`, `Decision Tree`) models were 
 ## Conclusion: 
 The project successfully demonstrates that a semantic classification approach using Word2Vec embedding’s highly effective for fake news detection. The final `Logistic Regression model`, with an F1-Score of `0.94`, provides a reliable and scalable solution. The F1-Score was prioritized as the key evaluation metric because it balances the critical needs of minimizing false positives (labelling real news as fake) and false negatives (failing to detect fake news). The distinct linguistic patterns identified in the EDA confirm that true and fake news are semantically separable.
 
+## Technologies Used
+- **python** - 3.13.1
+- **numpy** - 2.2.1
+- **pandas** - 2.2.3
+- **matplotlib** - 3.10.0
+- **seaborn** - 0.13.2
+- **statsmodels** - 0.14.4
+- **sklearn** - 1.6.1
+- **keras** - 3.8.0
+- **PIL** - 11.1.0
+- **tensorflow** - 2.18.0
+- **sklearn_crfsuite** - 0.5.0
+- **nltk** - 3.9.1
+- **spacy** - 3.7.5
+- **scipy** - 1.12
+- **pydantic** - 2.10.5
+- **wordcloud** - 1.9.4
+
+## Acknowledgements
+
+- This project was inspired by Upgrad IIIT Bangalore PG program on ML and AI.
+- This project was based on Semantic Classification
+
+
+## Contact
+Created by @[GVChalamaReddy](https://github.com/GVChalamaReddy) and @[Sajeev](https://github.com/sajeevmply)- feel free to contact me!
+
